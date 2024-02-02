@@ -5,4 +5,4 @@
 - https://github.com/samuelperezcode/TanStack-Blog
 
 ## Deploy
-- 
+- https://tan-stack-blog.vercel.app
