@@ -5,6 +5,9 @@ interface CalculatorProps {
 }
 
 export default function Calculator ({ num1, num2, variant }: CalculatorProps) {
+  if (variant !== null) {
+    console.log({ variant })
+  }
   const getResult = () => {
     const result = num1 + num2
     return result.toString()
