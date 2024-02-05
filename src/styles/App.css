@@ -47,3 +47,9 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.lista{
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}

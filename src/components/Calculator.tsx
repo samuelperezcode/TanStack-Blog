@@ -14,6 +14,7 @@ export default function Calculator ({ num1, num2, variant }: CalculatorProps) {
   }
   return (
     <div>
+      <h3>Variante: {variant}</h3>
       <h3>Result: {getResult()}</h3>
     </div>
   )
